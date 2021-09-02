@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPS.fruits</StartupObject>
+    <StartupObject>OOPS.Ecapsulation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstraction.cs" />
+    <Compile Include="Abstraction.cs" />
+    <Compile Include="Ecapsulation.cs" />
     <Compile Include="polymorphism.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Inheritance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
